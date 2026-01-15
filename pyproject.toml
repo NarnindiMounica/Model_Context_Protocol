@@ -1,7 +1,11 @@
 [project]
-name = "mcp"
+name = "model-context-protocol"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langchain-mcp-adapters>=0.2.1",
+    "langgraph>=1.0.6",
+    "mcp>=1.25.0",
+]

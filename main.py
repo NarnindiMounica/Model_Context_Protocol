@@ -1,5 +1,5 @@
 def main():
-    print("Hello from mcp!")
+    print("Hello from model-context-protocol!")
 
 
 if __name__ == "__main__":
